@@ -1,0 +1,99 @@
+h1{
+    color: rgb(0, 157, 255);
+}
+.fancy-text{
+    font-size: 32px;
+    color: #ff4081;
+font-weight: bolder;
+}
+.tt{
+    font-family: 'Lobster',cursive;
+    font-size: 2rem;
+    color: rgb(255, 247, 255);
+}
+.h{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    background-color: #b29af3;
+    border-radius: 15px;
+    border: none;
+    height: 20px;
+    width: 180px;
+    margin-left: 600px;
+    text-align: center;
+    padding: 3px;
+}
+
+.s{
+text-align: center;
+    font-size: 1rem;
+    color: rgb(229, 255, 0);}
+    
+.poem{
+    color: rgb(24, 94, 243);
+    font-family: firacode;
+    text-align: left;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+}   
+.ref{
+    color: rgb(4, 214, 144);
+    display: flex;
+    gap: 2px;
+}
+.nxt{
+background-color: rgb(150, 255, 101);
+margin: 200px 0 0 1300px;  
+border: solid 1px;
+border-radius: 10px;
+cursor:pointer;
+transition: all 0.3s ease;
+}
+.nxt:hover {
+      background: linear-gradient(to right,#00f2fe,#4facfe);
+      transform: scale(1.05);
+    }
+    .ks{
+background: linear-gradient(to right,limegreen,rgb(204, 255, 1));
+border: solid 2px;
+border-radius: 10px;
+padding: 10px;
+cursor: pointer;
+transition: all 0.2s ease;
+    }
+    .ks:hover{
+        background: linear-gradient(to right,rgb(204, 255, 1),limegreen);
+        transform: scale(1.05);
+    }
+    .bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -2;
+        object-fit: cover;
+        transition: all 0.5s ease-in-out;
+    
+    }
+    .n{
+        background-color: aqua;
+
+    }
+    .bt{
+        background:linear-gradient(to right,rgb(235, 58, 255),yellow,rgb(83, 49, 253)) ;
+        border:solid white 2px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        color: white;
+
+    }
+    .bt:hover{
+        background:linear-gradient(to right,rgb(83, 49, 253),yellow,rgb(235, 58, 255)) ;
+        transform: scale(1.05);
+        color:white;
+    }
